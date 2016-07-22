@@ -5,14 +5,19 @@
  * Thanks for MaterializeCSS.com
  */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 300;
 }
 h2 {
     font-size: 3rem;
 }
 .card .card-image img {
-    height:150px;
+    height: 150px;
 }
 .default_color {
     background-color: #0288d1 !important;
@@ -58,18 +63,19 @@ h2 {
     font-size: 2.1rem;
     font-style: normal;
     font-weight: 100;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     padding: 0;
     position: absolute;
 }
 .brand-logo img {
-margin:10px 0;
+    margin: 10px 0;
 }
 .text_h2 {
     font-weight: 100;line-height: 4.5rem;margin-bottom: 4%;
 }
 
-.span_h2 {color: #0288d1;
+.span_h2 {
+    color: #0288d1;
     font-weight: 300;
 }
 
@@ -77,12 +83,13 @@ margin:10px 0;
     color: #0288d1;
 }
 
-.in {font-style: normal !important;
+.in {
+    font-style: normal !important;
     font-weight: 400 !important;
 }
 
 .promo i {
-    color: #FFC000;
+    color: #ffc000;
     display: block;
     font-size: 7rem;
 }
@@ -296,18 +303,28 @@ nav a.button-collapse {
 .parallax-container {
     max-height: 400px;
 }
+.social-list li {
+    margin-bottom: 5px;
+}
+.social-list li .fa {
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+}
 
 footer.page-footer {
     margin-top: 0 !important;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     #nav_f {
-        padding:0 15px;
+        padding: 0 15px;
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
     .cd-words-wrapper b.is-visible {
-        font-size:4rem;
+        font-size: 4rem;
     }
+}
