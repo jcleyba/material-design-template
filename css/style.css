@@ -8,7 +8,12 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
-
+h2 {
+    font-size: 3rem;
+}
+.card .card-image img {
+    height:150px;
+}
 .default_color {
     background-color: #0288d1 !important;
 }
@@ -24,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro,
 #work,
 #team {
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 
@@ -77,7 +82,7 @@ margin:10px 0;
 }
 
 .promo i {
-    color: #0288d1;
+    color: #FFC000;
     display: block;
     font-size: 7rem;
 }
@@ -295,3 +300,14 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0 !important;
 }
+
+@media screen and (max-width:768px){
+    #nav_f {
+        padding:0 15px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .cd-words-wrapper b.is-visible {
+        font-size:4rem;
+    }
